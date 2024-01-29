@@ -1,0 +1,31 @@
+h1{ 
+    display: flex;
+    position: relative;
+    width: 100%;
+    background-color: rgb(7, 178, 7);
+    color: white;
+    text-shadow: 5px 3px 3px  black;
+    font-size: 30px;
+    margin: 0;
+    padding: 48px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    letter-spacing: 2px;
+    left: -2rem;
+}
+
+h1 span{
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.span1{
+    display: flex;
+    letter-spacing: 5px;
+}
+
+.span2{
+    display: flex;
+    letter-spacing: 5px;
+}

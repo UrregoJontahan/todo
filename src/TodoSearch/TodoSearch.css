@@ -1,0 +1,22 @@
+#search{
+    position: relative;
+    display: flex;
+    text-align: center;
+    left: 40%;
+    width: 15rem;
+    height: 1.5rem;
+    top: 1rem;
+    border-radius: 15px;
+    border: 1px solid grey;
+    box-shadow:5px 3px 10px 0 gray;;
+}
+
+#search::placeholder{
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+
+#search:focus{
+    outline-color:green;
+}
