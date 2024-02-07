@@ -4,11 +4,9 @@ import React from "react"
 function CreateTodoButton({setOpenModal}){
   return (
     <button className="CreateTodoButtton"
-      onClick={
-        ()=>{
-            setOpenModal(state=>!state)
-        }
-      }
+      onClick={()=>{
+            setOpenModal((state)=>!state)
+      }}
     >
         +
       </button>

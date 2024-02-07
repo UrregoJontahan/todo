@@ -32,8 +32,6 @@ export function useLocalStorage(itemName, initialValue){
       localStorage.setItem(itemName,JSON.stringify(newArrayItem))
       setItem(newArrayItem)
     }
-
-    // console.log(items)
     
     return {
       items,
@@ -43,24 +41,3 @@ export function useLocalStorage(itemName, initialValue){
     
   };
  
-  //  error,
-  //   loading,
-  //   completedTodos,
-  //   totalTodos,
-  //   searchValue,
-  //   searchedTodos,
-  //   setSearchValue,
-  //   completeTodo,
-  //   deleteTodo,
-
-    // localStorage.removeItem(`Todos-v.1`)
-
-// const defaultTodos=[
-//   {text:`cortar Cebolla`, completed:false},
-//   {text:`completar el curso`, completed:false},
-//   {text:`cortar ajo`, completed:false},
-//   {text:`LALAL`, completed:false},
-//   {text:`cortar`, completed:false}
-// ]
-
-// localStorage.setItem(`Todos-V.1`,JSON.stringify(defaultTodos))

@@ -5,6 +5,7 @@ body {
   background-color: rgb(209, 243, 237);
   overflow-x: hidden;
   box-sizing: border-box;
+  width:100% ;
 }
 
 #root{

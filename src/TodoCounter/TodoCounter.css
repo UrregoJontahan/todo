@@ -6,26 +6,29 @@ h1{
     color: white;
     text-shadow: 5px 3px 3px  black;
     font-size: 30px;
-    margin: 0;
+    margin:auto;
     padding: 48px;
     justify-content: center;
     text-align: center;
     align-items: center;
-    letter-spacing: 2px;
-    left: -2rem;
+    letter-spacing: 5px;
+    left: -3.5rem;
 }
 
 h1 span{
     font-weight: bold;
-    letter-spacing: 2px;
 }
 
 .span1{
     display: flex;
-    letter-spacing: 5px;
+    text-align: center;
+    letter-spacing: 10px;
 }
 
 .span2{
     display: flex;
     letter-spacing: 5px;
 }
+
+
+

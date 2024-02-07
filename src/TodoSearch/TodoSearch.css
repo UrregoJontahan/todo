@@ -2,9 +2,10 @@
     position: relative;
     display: flex;
     text-align: center;
-    left: 40%;
+    justify-content: center;
     width: 15rem;
     height: 1.5rem;
+    left: 43%;
     top: 1rem;
     border-radius: 15px;
     border: 1px solid grey;
@@ -19,4 +20,8 @@
 
 #search:focus{
     outline-color:green;
+}
+
+.TodoSearch:disabled{
+    opacity: 25%;
 }
