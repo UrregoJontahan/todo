@@ -3,6 +3,7 @@ import "./TodoList.css"
 
 
 function TodoList(props){
+    const renderFunction=props.children || props.render;
     return (
         <section className="TodoLIst-Container">
             {props.error && props.onError()}
@@ -10,11 +11,8 @@ function TodoList(props){
 
             {(!props.loading && !props.searchedTodos?.length) && props.onEmptyTodos() }
 
-            {props.searchedTodos?.map(todo=>props.render(todo))}
+            {(!props.loading && !props.error) && props.searchedTodos.map(renderFunction)}
 
-            <ul>
-                {props.children}
-            </ul>
         </section>
     )
 }

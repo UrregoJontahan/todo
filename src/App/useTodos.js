@@ -6,6 +6,7 @@ function useTodos(){
     const {
         items:todos,
         saveItem:saveTodos,
+        sincronized:sincronizedTodos,
         loading,
         error,
         }=useLocalStorage(`Todos-V.1`, []);
@@ -25,7 +26,7 @@ function useTodos(){
           
           return todoText.includes(textTodo)
         }
-        );
+        ); 
         
         const addTodo=(text)=>{
           const newTodos=[...todos];
@@ -67,6 +68,7 @@ function useTodos(){
             setOpenModal,
             openModal,
             addTodo,
+            sincronizedTodos
         }
 }
 

@@ -1,0 +1,33 @@
+.Countainer-father{
+    width: 20rem;
+    position:fixed ;
+    background:rgba(49, 49, 49, 0.867);
+    height: 10rem;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    left: 39%;
+    bottom: 40%;
+    border-radius: 10px;
+    border: 1px solid rgb(92, 91, 91);
+    font-size: 15px;
+    color:rgb(231, 214, 214);
+    font-weight: bold;
+    z-index: 2;
+    box-shadow:5px 3px 10px 0 gray;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1rem;
+}
+
+.button-reload{
+    border-radius: 10px;
+    border:1px solid rgb(86, 85, 85);
+    height: 2rem;
+    width: 5rem;
+    background: rgb(250, 250, 250);
+}
+
+.button-reload:hover{
+    background-color: rgb(58, 238, 8);
+    cursor: pointer;
+}
