@@ -28,7 +28,7 @@ function App() {
     setSearchValue,
     addTodo,
     sincronizedTodos
-  }= useTodos();
+  }= useTodos(); 
 
   return (
     <React.Fragment> 
